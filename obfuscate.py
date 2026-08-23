@@ -1,0 +1,1 @@
+def xor(s, k=42): return ''.join(chr(ord(c)^k) for c in s)
